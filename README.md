@@ -8,6 +8,6 @@ cp .env.example .env.local   # optional
 npm run dev
 ```
 
-`NEXT_PUBLIC_POLAR_CHECKOUT_URL` sets the buy-button link (falls back to `#pricing`). `NEXT_PUBLIC_SITE_URL` is the canonical URL for Open Graph images. Deployed on Vercel.
+`NEXT_PUBLIC_POLAR_CHECKOUT_URL` sets the buy-button link (falls back to the live Polar checkout). `NEXT_PUBLIC_SITE_URL` is the canonical URL for Open Graph images. Deployed on Vercel.
 
 © Supermax · support@shiptopaid.com

@@ -1,0 +1,24 @@
+import { SectionHeading } from "./ui";
+
+const skills = [
+  ["polar-checkout", "Turn a buy button into a working Polar checkout."],
+  ["polar-webhooks", "Verify signatures and handle payment events reliably."],
+  ["entitlements-and-portal", "Keep access in sync and let customers manage billing."],
+  ["usage-credit-metering", "Track usage, sell credits and enforce balances."],
+  ["license-keys", "Issue and validate licenses for your paid products."],
+  ["stripe-checkout", "Stripe Checkout subscriptions, tied to your user."],
+  ["stripe-webhooks", "Signed Stripe events, retries and stale-event guards."],
+  ["stripe-entitlements-and-portal", "Stripe access gating and billing portal."],
+  ["launch-audit", "Catch payment and access gaps before customers do."],
+  ["landing-page", "Build a clear, fast page that sells your product."],
+  ["pricing-copy", "Explain your offer with pricing copy that makes sense."],
+];
+
+export function Contents() {
+  return <section id="inside" className="py-16 md:py-20 mx-auto w-full max-w-[1200px] px-5 sm:px-8"><SectionHeading eyebrow="THE TOOLKIT" title="Everything between “it works” and “it sells”.">Give your agent the instructions. Give your app a business model.</SectionHeading><div className="mb-6 flex flex-wrap items-center justify-between gap-3 [&_h3]:m-0 [&_h3]:text-lg [&_h3]:font-bold [&_span]:text-sm [&_span]:text-slate"><h3>9 focused skills</h3><span>Plain SKILL.md files. Yours to inspect and adapt.</span></div><div className="grid gap-6 md:grid-cols-3">{skills.map(([name, description], i) => <article className="min-w-0 rounded-card border border-pebble/30 bg-paper p-6 [&_h4]:my-4 [&_h4]:break-words [&_h4]:text-lg [&_h4]:font-bold [&_h4]:text-forest-ink [&_p]:m-0 [&_p]:text-base [&_p]:leading-relaxed [&_p]:text-pebble" key={name}><span className="inline-flex h-6 items-center text-xs font-medium text-slate">{String(i + 1).padStart(2, "0")} /</span><h4>{name}</h4><p>{description}</p></article>)}</div><div className="mt-6 grid gap-6 md:grid-cols-2"><article className="rounded-card border border-pebble/30 bg-fog p-6 [&_h3]:mb-3 [&_h3]:text-2xl [&_h3]:font-bold [&_p:not(:first-child)]:text-base [&_p:not(:first-child)]:leading-relaxed [&_p:not(:first-child)]:text-charcoal"><p className="mb-4 text-xs font-medium text-forest-ink">LESS PROMPTING. MORE SHIPPING.</p><h3>5 commands. Real momentum.</h3><p>Start the workflow without writing the perfect prompt.</p><div className="flex flex-wrap gap-2 [&_code]:rounded-card [&_code]:border [&_code]:border-pebble/40 [&_code]:bg-paper [&_code]:p-2 [&_code]:text-xs [&_code]:text-forest-ink">{["/add-paywall", "/debug-webhook", "/launch-audit", "/ship", "/add-credits"].map(command => <code key={command}>{command}</code>)}</div></article><article className="rounded-card border border-pebble/30 bg-linen-mist p-6 [&_h3]:mb-3 [&_h3]:text-2xl [&_h3]:font-bold [&_p:not(:first-child)]:text-base [&_p:not(:first-child)]:leading-relaxed [&_p:not(:first-child)]:text-charcoal"><p className="mb-4 text-xs font-medium text-forest-ink">A WORKING STARTING POINT</p><h3>The starter is included.</h3><p>Next.js + Better Auth + Postgres/Drizzle + Polar. Already wired together.</p><ul className="m-0 grid list-none gap-3 p-0 text-base leading-relaxed [&_li]:flex [&_li]:gap-3 [&_li]:before:content-['✓'] [&_li]:before:text-spruce"><li>Checkout & verified webhooks</li><li>Gated pages & customer portal</li><li>Legal templates</li><li>End-to-end test scripts</li></ul></article></div></section>;
+}
+
+export function Gotchas() {
+  const items = ["Read the raw body before verifying signatures.", "example.com emails can get rejected with 422.", "Stale webhooks can restore revoked access.", "The wrong product can accidentally grant Pro.", "The SDK needs Node 22.", "The portal returns 422 for users who never paid."];
+  return <section className="bg-forest-ink py-16 text-paper md:py-20"><div className="mx-auto w-full max-w-[1200px] px-5 sm:px-8 grid gap-10 md:grid-cols-2 [&_h2]:font-display [&_h2]:text-4xl [&_h2]:font-black [&_h2]:leading-tight [&_h2]:tracking-tight [&_h2]:text-lime [&_p:first-child]:text-linen-mist [&_p:not(:first-child)]:mt-5 [&_p:not(:first-child)]:text-lg [&_p:not(:first-child)]:leading-relaxed [&_ul]:m-0 [&_ul]:grid [&_ul]:list-none [&_ul]:content-center [&_ul]:gap-5 [&_ul]:p-0 [&_li]:flex [&_li]:gap-3 [&_li]:text-base [&_li]:leading-relaxed [&_li_span]:text-lime"><div><p className="mb-4 text-xs font-medium text-forest-ink">LEARNED THE HARD WAY</p><h2>The gotchas?<br />Already got them.</h2><p>Battle-tested lessons from building it for real. Baked into the pack.</p></div><ul>{items.map(item => <li key={item}><span aria-hidden="true">↳</span>{item}</li>)}</ul></div></section>;
+}

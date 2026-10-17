@@ -1,0 +1,21 @@
+import Link from "next/link";
+import { LegalPage, legalMetadata, Support } from "@/components/legal";
+
+export const metadata = legalMetadata("/terms", "Terms of use", "The plain-English terms for buying and using ShipToPaid: what you can build with it, what you can't resell, and who's responsible for what.");
+
+export default function Terms() {
+  return <LegalPage eyebrow="TERMS" title="Terms of use" intro={<p>These terms cover buying and using ShipToPaid. We’ve kept them short and plain. By buying or using ShipToPaid, you agree to them.</p>} sections={[
+    { heading: "Who we are", body: <p>ShipToPaid is made by Deepak, an independent developer based in India. When we say “we” or “us”, that’s who we mean. You can reach us any time at <Support />.</p> },
+    { heading: "What you’re buying", body: <p>ShipToPaid is a digital product: AI coding-agent skills, slash commands and a Next.js starter that help you add Polar or Stripe payments to your apps. It’s a one-time payment, not a subscription. The price is $49 for the first 100 buyers, then $79. You get access as soon as your payment goes through.</p> },
+    { heading: "How payment works", body: <p>Payments are handled by <a href="https://polar.sh" target="_blank" rel="noopener">Polar</a>, our merchant of record. That means Polar processes your payment, charges any sales tax or VAT that applies, and issues your receipt. Polar’s own terms also apply to the purchase.</p> },
+    { heading: "What you can do with it", body: <><p>Once you’ve bought ShipToPaid, you can use it in as many projects as you like, for yourself or for clients, with no limits on the number of projects. You can change the code however you want, and you can ship it inside the apps you build, including commercial ones.</p><p>Your licence is for you (one person). If your team wants to use it, each person should get their own copy.</p></> },
+    { heading: "What you can’t do with it", body: <><p>Please don’t resell, share or give away ShipToPaid itself. That includes:</p><ul><li>Selling or publishing the skills, commands or starter as your own kit, template or course.</li><li>Using it to make a product that competes with ShipToPaid.</li><li>Posting the paid files somewhere public, like a public repo.</li></ul><p>Apps you build with it are yours. It’s only the pack itself we ask you not to pass on.</p></> },
+    { heading: "The free lite pack", body: <p>The <a href="https://github.com/shiptopaid/shiptopaid-lite" target="_blank" rel="noopener">free lite pack</a> is open source under the MIT licence. Its own licence file applies to it, not these terms.</p> },
+    { heading: "Refunds", body: <p>If ShipToPaid isn’t for you, you can ask for a full refund within 14 days. See our <Link href="/refunds">refund policy</Link>. If you get a refund, your licence ends and you should stop using the paid pack.</p> },
+    { heading: "Provided as-is", body: <><p>We work hard to make ShipToPaid accurate and useful, but we can’t promise it’s free of bugs or right for every app. It’s provided “as is”, without warranties of any kind.</p><p>Payments and money are important, so please test everything in test mode and check your code before going live. You’re responsible for your app, your payment accounts and the code your coding agent writes. Polar and Stripe may change how they work, and we can’t control that.</p></> },
+    { heading: "Limitation of liability", body: <p>As far as the law allows, we aren’t responsible for indirect losses, like lost profits, lost data or business interruption, that come from using ShipToPaid. Our total responsibility to you for anything to do with ShipToPaid is limited to what you paid for it. Nothing here takes away rights you have by law that can’t be taken away.</p> },
+    { heading: "Updates and changes", body: <p>We may update ShipToPaid and these terms from time to time. If we change these terms, we’ll update the date at the top of this page. The version that applied when you bought still covers your purchase, unless a change is in your favour.</p> },
+    { heading: "Governing law", body: <p>These terms are governed by the laws of India. If something goes wrong, please email us first. Most problems can be sorted out quickly that way.</p> },
+    { heading: "Questions", body: <p>Email <Support /> and we’ll get back to you.</p> },
+  ]} />;
+}

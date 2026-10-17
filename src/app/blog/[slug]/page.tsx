@@ -34,7 +34,7 @@ export default async function BlogPost({ params }: Props) {
   const url = `${blogUrl}/${post.slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
+    "@type": ["Article", "BlogPosting"],
     headline: post.title,
     description: post.description,
     datePublished: post.date,

@@ -3,6 +3,7 @@ import type { Post } from "@/lib/blog";
 export const addPaymentsToAiBuiltApp: Post = {
   "slug": "add-payments-to-ai-built-app",
   "title": "How to Add Payments to an App You Built With AI (Without It Breaking)",
+  "seoTitle": "How to Add Payments to an App Built With AI",
   "description": "A plain-English guide for vibe coders: how the money moves, five payment bugs AI agents make, how to check each before launch, and Polar vs Stripe.",
   "date": "2026-10-17",
   "author": "Deepak",

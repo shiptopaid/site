@@ -19,12 +19,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
   const url = `${blogUrl}/${post.slug}`;
   return {
-    title: `${post.title} | ShipToPaid`,
+    title: `${post.seoTitle ?? post.title} | ShipToPaid`,
     description: post.description,
     authors: [{ name: post.author }],
     alternates: { canonical: url },
-    openGraph: { title: post.title, description: post.description, url, type: "article", siteName: "ShipToPaid", publishedTime: post.date, modifiedTime: post.updated ?? post.date, authors: [post.author] },
-    twitter: { card: "summary_large_image", title: post.title, description: post.description },
+    openGraph: { title: post.title, description: post.description, url, type: "article", siteName: "ShipToPaid", publishedTime: post.date, modifiedTime: post.updated ?? post.date, authors: [post.author], images: [{ url: `${url}/opengraph-image`, width: 1200, height: 630, alt: post.title }] },
+    twitter: { card: "summary_large_image", title: post.title, description: post.description, images: [{ url: `${url}/opengraph-image`, alt: post.title }] },
   };
 }
 

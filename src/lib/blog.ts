@@ -15,6 +15,8 @@ export type Block =
 export type Post = {
   slug: string;
   title: string;
+  /** Shorter <title> for search results (keep under ~60 chars incl. " | ShipToPaid"). */
+  seoTitle?: string;
   description: string;
   /** ISO date, e.g. "2026-10-17" */
   date: string;

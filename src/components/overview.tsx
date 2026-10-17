@@ -5,7 +5,7 @@ export function Problem() {
     ["01", "Confident agent. Imaginary API.", "Your agent invents an endpoint. You spend the afternoon untangling payment code that never worked."],
     ["02", "A webhook isn’t just a POST.", "Events silently fail. Signatures go unchecked. One spoofed request becomes a very real problem."],
     ["03", "Paid doesn’t always mean access.", "Customers pay and stay locked out. Or cancel and keep Pro. Your entitlements need to follow the money."],
-  ].map(([number, title, text]) => <article className="border-t border-pebble/40 pt-6 [&_h3]:my-5 [&_h3]:text-lg [&_h3]:font-bold [&_p]:m-0 [&_p]:text-base [&_p]:leading-relaxed [&_p]:text-pebble" key={number}><span className="inline-flex size-6 items-center text-xl text-spruce">{number}</span><h3>{title}</h3><p>{text}</p></article>)}</div></div></section>;
+  ].map(([number, title, text]) => <article className="border-t border-pebble/40 pt-6 [&_h3]:my-5 [&_h3]:text-lg [&_h3]:font-bold [&_p]:m-0 [&_p]:text-base [&_p]:leading-relaxed [&_p]:text-charcoal" key={number}><span className="inline-flex size-6 items-center text-xl text-spruce">{number}</span><h3>{title}</h3><p>{text}</p></article>)}</div></div></section>;
 }
 
 export function Demo() {

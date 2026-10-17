@@ -11,7 +11,8 @@ export const metadata: Metadata = {
   title: `${title} | ShipToPaid`,
   description,
   alternates: { canonical: blogUrl },
-  openGraph: { title, description, url: blogUrl, type: "website", siteName: "ShipToPaid" },
+  openGraph: { title, description, url: blogUrl, type: "website", siteName: "ShipToPaid", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ShipToPaid blog: adding payments to apps you built with AI" }] },
+  twitter: { card: "summary_large_image", title, description, images: ["/opengraph-image"] },
 };
 
 export default function BlogIndex() {

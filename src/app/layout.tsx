@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "ShipToPaid — Add Stripe or Polar Payments to AI-Built Apps",
   description: "Vibe coding payments, done right: AI agent skills and a working Next.js starter to add Stripe or Polar payments, webhooks and paywalls in an afternoon. $49.",
   openGraph: {
-    title: "ShipToPaid — From shipped to paid",
+    title: "ShipToPaid — Add Stripe or Polar Payments to AI-Built Apps",
     description: "You vibe-coded the app. Now add payments that actually work. Skills, commands and a working Next.js starter for Polar or Stripe.",
     type: "website",
     siteName: "ShipToPaid",

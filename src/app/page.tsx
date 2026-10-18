@@ -11,8 +11,14 @@ import { PurchaseThanks } from "@/components/purchase-thanks";
 const homeUrl = "https://www.shiptopaid.com";
 const description = "AI coding-agent skills, slash commands and a working Next.js starter to add Polar or Stripe payments, verified webhooks and paywalls in an afternoon. $49, one-time.";
 
+const title = "ShipToPaid — Add Stripe or Polar Payments to AI-Built Apps";
+const shareDescription = "You vibe-coded the app. Now add payments that actually work. Skills, commands and a working Next.js starter for Polar or Stripe.";
+
 export const metadata: Metadata = {
+  title,
   alternates: { canonical: homeUrl },
+  openGraph: { title, description: shareDescription, url: homeUrl, type: "website", siteName: "ShipToPaid" },
+  twitter: { card: "summary_large_image", title, description: shareDescription },
 };
 
 const organization = {

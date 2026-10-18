@@ -7,12 +7,19 @@ import { Contents, Gotchas } from "@/components/contents";
 import { Pricing } from "@/components/pricing";
 import { FAQ, Footer } from "@/components/faq";
 import { PurchaseThanks } from "@/components/purchase-thanks";
+import { FromTheBlog } from "@/components/from-the-blog";
 
 const homeUrl = "https://www.shiptopaid.com";
 const description = "AI coding-agent skills, slash commands and a working Next.js starter to add Polar or Stripe payments, verified webhooks and paywalls in an afternoon. $49, one-time.";
 
+const title = "ShipToPaid — Add Stripe or Polar Payments to AI-Built Apps";
+const shareDescription = "You vibe-coded the app. Now add payments that actually work. Skills, commands and a working Next.js starter for Polar or Stripe.";
+
 export const metadata: Metadata = {
+  title,
   alternates: { canonical: homeUrl },
+  openGraph: { title, description: shareDescription, url: homeUrl, type: "website", siteName: "ShipToPaid" },
+  twitter: { card: "summary_large_image", title, description: shareDescription },
 };
 
 const organization = {
@@ -51,5 +58,5 @@ const jsonLd = {
 };
 
 export default function Home() {
-  return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} /><a className="fixed top-3 left-3 z-50 -translate-y-32 rounded-pill bg-lime px-6 py-3 text-forest-ink focus:translate-y-0" href="#main">Skip to content</a><Header /><PurchaseThanks /><main id="main"><Hero /><Problem /><Contents /><Gotchas /><Demo /><Pricing /><FAQ /></main><Footer /></>;
+  return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} /><a className="fixed top-3 left-3 z-50 -translate-y-32 rounded-pill bg-lime px-6 py-3 text-forest-ink focus:translate-y-0" href="#main">Skip to content</a><Header /><PurchaseThanks /><main id="main"><Hero /><Problem /><Contents /><Gotchas /><Demo /><Pricing /><FAQ /><FromTheBlog /></main><Footer /></>;
 }

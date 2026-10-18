@@ -6,6 +6,7 @@ export const addPaymentsToAiBuiltApp: Post = {
   "seoTitle": "How to Add Payments to an App Built With AI",
   "description": "A plain-English guide for vibe coders: how the money moves, five payment bugs AI agents make, how to check each before launch, and Polar vs Stripe.",
   "date": "2026-10-17",
+  "updated": "2026-10-18",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -162,7 +163,7 @@ export const addPaymentsToAiBuiltApp: Post = {
     },
     {
       "type": "p",
-      "text": "The checks above apply to both: the bugs are about how your app reacts to payments, not which company handles them."
+      "text": "The checks above apply to both: the bugs are about how your app reacts to payments, not which company handles them. If you're still deciding whether to charge once, every month or by credits, I wrote a separate guide on [how to charge for your vibe-coded app](/blog/charge-for-your-vibe-coded-app)."
     },
     {
       "type": "h2",

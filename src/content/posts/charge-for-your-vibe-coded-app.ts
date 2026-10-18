@@ -3,7 +3,8 @@ import type { Post } from "@/lib/blog";
 export const chargeForYourVibeCodedApp: Post = {
   "slug": "charge-for-your-vibe-coded-app",
   "title": "How to Charge for Your Vibe-Coded App: One-Time vs Subscription (and How to Set It Up)",
-  "description": "A plain-English guide to monetizing an app you built with Cursor, Claude Code or Codex: one-time vs subscription vs credits, Polar vs Stripe, and the setup steps.",
+  "seoTitle": "How to Charge for Your Vibe-Coded App",
+  "description": "A plain-English guide to charging for an app you built with Cursor, Claude Code or Codex: one-time vs subscription vs credits, Polar vs Stripe, and setup.",
   "date": "2026-10-17",
   "author": "Deepak",
   "readingMinutes": 7,

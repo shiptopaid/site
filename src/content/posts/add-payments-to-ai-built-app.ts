@@ -6,7 +6,7 @@ export const addPaymentsToAiBuiltApp: Post = {
   "seoTitle": "How to Add Payments to an App Built With AI",
   "description": "A plain-English guide for vibe coders: how the money moves, five payment bugs AI agents make, how to check each before launch, and Polar vs Stripe.",
   "date": "2026-10-17",
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -59,7 +59,7 @@ export const addPaymentsToAiBuiltApp: Post = {
     },
     {
       "type": "p",
-      "text": "**How to check:** in test mode, sign up as a brand-new user, pay with a test card, and see whether the paid features unlock without you touching anything. Then log out, log back in, and check they're still unlocked. If you ever have to fix someone's account by hand, it's broken. Also open your payment company's dashboard: it shows whether its messages to your app were delivered or failed."
+      "text": "**How to check:** in test mode, sign up as a brand-new user, pay with a test card, and see whether the paid features unlock without you touching anything. Then log out, log back in, and check they're still unlocked. If you ever have to fix someone's account by hand, it's broken. Also open your payment company's dashboard: it shows whether its messages to your app were delivered or failed. If a customer is already locked out, I wrote a step-by-step guide on [what to do when a customer paid but can't get in](/blog/customer-paid-but-no-access)."
     },
     {
       "type": "h3",

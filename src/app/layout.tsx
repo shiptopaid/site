@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "700", "900"], 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "ShipToPaid — Add Stripe or Polar Payments to AI-Built Apps",
-  description: "Vibe coding payments, done right: AI agent skills and a working Next.js starter to add Stripe or Polar payments, webhooks and paywalls in an afternoon. $49.",
+  description: "Vibe coding payments done right: AI agent skills and a working Next.js starter to add Stripe or Polar payments, webhooks and paywalls in an afternoon. $49.",
   openGraph: {
     title: "ShipToPaid — Add Stripe or Polar Payments to AI-Built Apps",
     description: "You vibe-coded the app. Now add payments that actually work. Skills, commands and a working Next.js starter for Polar or Stripe.",

@@ -17,7 +17,24 @@ export const metadata: Metadata = {
 
 export default function BlogIndex() {
   const posts = getPosts();
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "The ShipToPaid blog",
+    url: blogUrl,
+    description,
+    publisher: { "@type": "Organization", name: "ShipToPaid", url: "https://www.shiptopaid.com" },
+    blogPost: posts.map((post) => ({
+      "@type": "BlogPosting",
+      headline: post.title,
+      url: `${blogUrl}/${post.slug}`,
+      datePublished: post.date,
+      dateModified: post.updated ?? post.date,
+      author: { "@type": "Person", name: post.author },
+    })),
+  };
   return <><Header /><main id="main" className="mx-auto w-full max-w-[1200px] px-5 py-16 sm:px-8 md:py-20">
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
     <div className="mb-12 max-w-[760px]">
       <p className="mb-4 inline-block rounded-pill bg-linen-mist px-4 py-2 text-xs font-medium text-forest-ink">THE SHIPTOPAID BLOG</p>
       <h1 className="mb-5 font-display text-5xl font-black leading-[0.95] tracking-[-0.04em] text-obsidian uppercase md:text-6xl">From shipped to paid, in plain words.</h1>

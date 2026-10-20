@@ -174,7 +174,7 @@ export const chargeForYourVibeCodedApp: Post = {
     },
     {
       "type": "p",
-      "text": "**Stripe** handles the payment, but you're the seller, so tax is your job. Stripe has a tax add-on that works out the right amount to charge, but registering and filing is still on you. In return you get more control and a huge set of features."
+      "text": "**Stripe** handles the payment, but you're the seller, so tax is your job. Stripe Tax can work out the right amount to charge, and its paid Tax Complete plan can also handle tax registrations and filings for you. You're still the seller, though, so those registrations are in your name. In return you get more control and a huge set of features. Stripe also has its own merchant of record option, Managed Payments, for businesses based in the countries it supports."
     },
     {
       "type": "p",

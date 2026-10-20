@@ -6,7 +6,7 @@ export const addPaymentsToAiBuiltApp: Post = {
   "seoTitle": "How to Add Payments to an App Built With AI",
   "description": "A plain-English guide for vibe coders: how the money moves, five payment bugs AI agents make, how to check each before launch, and Polar vs Stripe.",
   "date": "2026-10-17",
-  "updated": "2026-10-19",
+  "updated": "2026-10-22",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -159,7 +159,7 @@ export const addPaymentsToAiBuiltApp: Post = {
     },
     {
       "type": "p",
-      "text": "My rule of thumb: if you're solo, selling a digital product or subscription to people in many countries, and you don't want to think about tax, start with Polar. If you already use Stripe or have a business set up to handle tax, use Stripe. Either way, before you build anything, check that the one you pick can pay out to your country. And if tax questions worry you, a short chat with an accountant is worth it."
+      "text": "My rule of thumb: if you're solo, selling a digital product or subscription to people in many countries, and you don't want to think about tax, start with Polar. If you already use Stripe or have a business set up to handle tax, use Stripe. Either way, before you build anything, check that the one you pick can pay out to your country. And if tax questions worry you, a short chat with an accountant is worth it. I compared the two in more detail (fees, payouts by country, features and switching later) in [Polar vs Stripe for indie makers](/blog/polar-vs-stripe-for-indie-makers)."
     },
     {
       "type": "p",

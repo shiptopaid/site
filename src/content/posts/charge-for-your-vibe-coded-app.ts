@@ -6,6 +6,7 @@ export const chargeForYourVibeCodedApp: Post = {
   "seoTitle": "How to Charge for Your Vibe-Coded App",
   "description": "A plain-English guide to charging for an app you built with Cursor, Claude Code or Codex: one-time vs subscription vs credits, Polar vs Stripe, and setup.",
   "date": "2026-10-17",
+  "updated": "2026-10-20",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -126,7 +127,7 @@ export const chargeForYourVibeCodedApp: Post = {
     },
     {
       "type": "p",
-      "text": "Step 3 is where most AI-written setups go wrong. The agent handles the first payment and forgets the rest, so cancelled users keep access forever. My [first post](/blog/add-payments-to-ai-built-app) has a checklist to catch that."
+      "text": "Step 3 is where most AI-written setups go wrong. The agent handles the first payment and forgets the rest, so cancelled users keep access forever. My [first post](/blog/add-payments-to-ai-built-app) has a checklist to catch that. And if a customer has already paid and still can't get in, here's [what to do when a customer paid but has no access](/blog/customer-paid-but-no-access)."
     },
     {
       "type": "h2",
@@ -173,7 +174,7 @@ export const chargeForYourVibeCodedApp: Post = {
     },
     {
       "type": "p",
-      "text": "**Stripe** handles the payment, but you're the seller, so tax is your job. Stripe has a tax add-on that works out the right amount to charge, but registering and filing is still on you. In return you get more control and a huge set of features."
+      "text": "**Stripe** handles the payment, but you're the seller, so tax is your job. Stripe Tax can work out the right amount to charge, and its paid Tax Complete plan can also handle tax registrations and filings for you. You're still the seller, though, so those registrations are in your name. In return you get more control and a huge set of features. Stripe also has its own merchant of record option, Managed Payments, for businesses based in the countries it supports."
     },
     {
       "type": "p",
@@ -197,7 +198,7 @@ export const chargeForYourVibeCodedApp: Post = {
         "**Ask it to lock paid pages** so they check access in your database, not just whether someone saw the thank-you page.",
         "**Add the billing page** so customers can cancel or update their card themselves.",
         "**Test everything** with a test card: buy, log out and in, cancel, refund, and try the billing page as a free user.",
-        "**Switch to live mode,** copy over the live keys, make one real purchase yourself, then refund it."
+        "**Switch to live mode,** copy over the live keys and add the live payment-message address. Don't test with your own real card: Polar and Stripe both ask you not to. On Polar, a 100% discount code made just for you lets you check the live setup. On Stripe, double-check the live settings and watch your first real sale closely."
       ]
     },
     {

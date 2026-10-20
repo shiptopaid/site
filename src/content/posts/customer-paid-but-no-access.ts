@@ -6,6 +6,7 @@ export const customerPaidButNoAccess: Post = {
   "seoTitle": "Customer Paid but Has No Access? How to Fix It",
   "description": "Customer paid but can't get in? A calm, plain-English fix guide for AI-built apps: what to do first, the five usual causes, and a 10-minute test to run.",
   "date": "2026-10-19",
+  "updated": "2026-10-20",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -182,7 +183,7 @@ export const customerPaidButNoAccess: Post = {
     },
     {
       "type": "p",
-      "text": "If every step passes, do one real purchase yourself in live mode, check access the same way, then refund it."
+      "text": "If every step passes, check live mode too, but not with your own real card: Polar and Stripe both ask you not to test with real card details. On Polar, buy with a 100% discount code made just for you and check access the same way. On Stripe, make sure the live keys and the live payment-message address are saved, then check access the moment your first real sale lands."
     },
     {
       "type": "h2",

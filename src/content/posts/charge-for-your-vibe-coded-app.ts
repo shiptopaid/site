@@ -198,7 +198,7 @@ export const chargeForYourVibeCodedApp: Post = {
         "**Ask it to lock paid pages** so they check access in your database, not just whether someone saw the thank-you page.",
         "**Add the billing page** so customers can cancel or update their card themselves.",
         "**Test everything** with a test card: buy, log out and in, cancel, refund, and try the billing page as a free user.",
-        "**Switch to live mode,** copy over the live keys, make one real purchase yourself, then refund it."
+        "**Switch to live mode,** copy over the live keys and add the live payment-message address. Don't test with your own real card: Polar and Stripe both ask you not to. On Polar, a 100% discount code made just for you lets you check the live setup. On Stripe, double-check the live settings and watch your first real sale closely."
       ]
     },
     {

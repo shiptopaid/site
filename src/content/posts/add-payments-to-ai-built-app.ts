@@ -134,7 +134,7 @@ export const addPaymentsToAiBuiltApp: Post = {
         "Your payment dashboard shows messages to your app as delivered, not failing.",
         "Your secret keys live in your app's settings, not in the code.",
         "Terms, Privacy and Refund pages exist and are linked from your site. Payment companies often ask for them.",
-        "After going live, you make one real purchase yourself with a real card, check that it unlocks, then refund it."
+        "After going live, you check the live setup without your own real card (Polar and Stripe both ask you not to test with real card details): on Polar, buy with a 100% discount code made just for you; on Stripe, check the live keys and live payment-message address are saved, then check access the moment your first real sale lands."
       ]
     },
     {
@@ -155,7 +155,7 @@ export const addPaymentsToAiBuiltApp: Post = {
     },
     {
       "type": "p",
-      "text": "**Stripe** processes the payment, but you are the seller, so tax is your job. Stripe has a tax add-on that can work out and collect the right amount, but registering and filing is still on you. In return you get more control, which suits you if you already have a Stripe account or need something specific."
+      "text": "**Stripe** processes the payment, but you are the seller, so tax is your job. Stripe Tax can work out and collect the right amount, and its paid Tax Complete plan can also handle registrations and filings. You're still the seller, though, so those registrations are in your name. In return you get more control, which suits you if you already have a Stripe account or need something specific."
     },
     {
       "type": "p",

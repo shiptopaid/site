@@ -6,6 +6,7 @@ export const chargeForYourVibeCodedApp: Post = {
   "seoTitle": "How to Charge for Your Vibe-Coded App",
   "description": "A plain-English guide to charging for an app you built with Cursor, Claude Code or Codex: one-time vs subscription vs credits, Polar vs Stripe, and setup.",
   "date": "2026-10-17",
+  "updated": "2026-10-20",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -126,7 +127,7 @@ export const chargeForYourVibeCodedApp: Post = {
     },
     {
       "type": "p",
-      "text": "Step 3 is where most AI-written setups go wrong. The agent handles the first payment and forgets the rest, so cancelled users keep access forever. My [first post](/blog/add-payments-to-ai-built-app) has a checklist to catch that."
+      "text": "Step 3 is where most AI-written setups go wrong. The agent handles the first payment and forgets the rest, so cancelled users keep access forever. My [first post](/blog/add-payments-to-ai-built-app) has a checklist to catch that. And if a customer has already paid and still can't get in, here's [what to do when a customer paid but has no access](/blog/customer-paid-but-no-access)."
     },
     {
       "type": "h2",

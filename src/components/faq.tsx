@@ -3,6 +3,7 @@ import { SectionHeading } from "./ui";
 
 const questions = [
   ["Why not just use free skills?", "There’s a free lite pack with 3 skills. The full pack goes further: entitlements, credits, license keys, full Stripe support, a launch audit, plus a tested starter and scripts. Every gotcha comes from building it for real."],
+  ["Is $49 the final price?", "No. Launch price $49 ends Nov 30, 2026, then $79. It’s a one-time payment either way."],
   ["What if I cancel?", "Nothing to cancel. ShipToPaid is a one-time purchase with lifetime updates."],
   ["What’s the refund policy?", "Try it for 14 days. If it’s not for you, ask for a full refund. No questions asked."],
   ["Which stacks does it work with?", "The starter and primary examples use Next.js App Router. The skills also include notes for adapting the workflows to other stacks."],

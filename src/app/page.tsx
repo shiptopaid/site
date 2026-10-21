@@ -48,6 +48,7 @@ const jsonLd = {
       offers: {
         "@type": "Offer",
         price: "49",
+        priceValidUntil: "2026-11-30",
         priceCurrency: "USD",
         availability: "https://schema.org/InStock",
         url: checkoutUrl,

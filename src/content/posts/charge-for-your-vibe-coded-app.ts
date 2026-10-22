@@ -178,7 +178,7 @@ export const chargeForYourVibeCodedApp: Post = {
     },
     {
       "type": "p",
-      "text": "**My rule of thumb:** solo, selling digital products or subscriptions to many countries, and don't want to think about tax? Start with Polar. Already have a Stripe account or a business set up to handle tax? Use Stripe. Either way, first check that the one you pick can pay out to your country. And if tax worries you, a short chat with an accountant is money well spent."
+      "text": "**My rule of thumb:** solo, selling digital products or subscriptions to many countries, and don't want to think about tax? Start with Polar. Already have a Stripe account or a business set up to handle tax? Use Stripe. Either way, first check that the one you pick can pay out to your country. And if tax worries you, a short chat with an accountant is money well spent. I compared the two in more detail (fees, payouts by country, features and switching later) in [Polar vs Stripe for indie makers](/blog/polar-vs-stripe-for-indie-makers)."
     },
     {
       "type": "h2",

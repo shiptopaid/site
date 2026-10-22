@@ -204,7 +204,7 @@ export const customerPaidButNoAccess: Post = {
     },
     {
       "type": "p",
-      "text": "If you're still choosing between one-time, subscription or credits, my guide on [how to charge for your vibe-coded app](/blog/charge-for-your-vibe-coded-app) helps you decide. Subscriptions add a few more things to test, like cancellations and failed renewals."
+      "text": "If you're still choosing between one-time, subscription or credits, my guide on [how to charge for your vibe-coded app](/blog/charge-for-your-vibe-coded-app) helps you decide. Subscriptions add a few more things to test, like cancellations and failed renewals. If you haven't picked a payment company yet, my guide to [Polar vs Stripe for indie makers](/blog/polar-vs-stripe-for-indie-makers) compares fees, payouts by country and features."
     },
     {
       "type": "h2",

@@ -6,7 +6,7 @@ export const addPaymentsToAiBuiltApp: Post = {
   "seoTitle": "How to Add Payments to an App Built With AI",
   "description": "A plain-English guide for vibe coders: how the money moves, five payment bugs AI agents make, how to check each before launch, and Polar vs Stripe.",
   "date": "2026-10-17",
-  "updated": "2026-10-19",
+  "updated": "2026-10-22",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -134,7 +134,7 @@ export const addPaymentsToAiBuiltApp: Post = {
         "Your payment dashboard shows messages to your app as delivered, not failing.",
         "Your secret keys live in your app's settings, not in the code.",
         "Terms, Privacy and Refund pages exist and are linked from your site. Payment companies often ask for them.",
-        "After going live, you make one real purchase yourself with a real card, check that it unlocks, then refund it."
+        "After going live, you check the live setup without your own real card (Polar and Stripe both ask you not to test with real card details): on Polar, buy with a 100% discount code made just for you; on Stripe, check the live keys and live payment-message address are saved, then check access the moment your first real sale lands."
       ]
     },
     {
@@ -155,11 +155,11 @@ export const addPaymentsToAiBuiltApp: Post = {
     },
     {
       "type": "p",
-      "text": "**Stripe** processes the payment, but you are the seller, so tax is your job. Stripe has a tax add-on that can work out and collect the right amount, but registering and filing is still on you. In return you get more control, which suits you if you already have a Stripe account or need something specific."
+      "text": "**Stripe** processes the payment, but you are the seller, so tax is your job. Stripe Tax can work out and collect the right amount, and its paid Tax Complete plan can also handle registrations and filings. You're still the seller, though, so those registrations are in your name. In return you get more control, which suits you if you already have a Stripe account or need something specific."
     },
     {
       "type": "p",
-      "text": "My rule of thumb: if you're solo, selling a digital product or subscription to people in many countries, and you don't want to think about tax, start with Polar. If you already use Stripe or have a business set up to handle tax, use Stripe. Either way, before you build anything, check that the one you pick can pay out to your country. And if tax questions worry you, a short chat with an accountant is worth it."
+      "text": "My rule of thumb: if you're solo, selling a digital product or subscription to people in many countries, and you don't want to think about tax, start with Polar. If you already use Stripe or have a business set up to handle tax, use Stripe. Either way, before you build anything, check that the one you pick can pay out to your country. And if tax questions worry you, a short chat with an accountant is worth it. I compared the two in more detail (fees, payouts by country, features and switching later) in [Polar vs Stripe for indie makers](/blog/polar-vs-stripe-for-indie-makers)."
     },
     {
       "type": "p",

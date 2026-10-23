@@ -6,7 +6,7 @@ export const customerPaidButNoAccess: Post = {
   "seoTitle": "Customer Paid but Has No Access? How to Fix It",
   "description": "Customer paid but can't get in? A calm, plain-English fix guide for AI-built apps: what to do first, the five usual causes, and a 10-minute test to run.",
   "date": "2026-10-19",
-  "updated": "2026-10-20",
+  "updated": "2026-10-26",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -204,7 +204,7 @@ export const customerPaidButNoAccess: Post = {
     },
     {
       "type": "p",
-      "text": "If you're still choosing between one-time, subscription or credits, my guide on [how to charge for your vibe-coded app](/blog/charge-for-your-vibe-coded-app) helps you decide. Subscriptions add a few more things to test, like cancellations and failed renewals. If you haven't picked a payment company yet, my guide to [Polar vs Stripe for indie makers](/blog/polar-vs-stripe-for-indie-makers) compares fees, payouts by country and features."
+      "text": "If you're still choosing between one-time, subscription or credits, my guide on [how to charge for your vibe-coded app](/blog/charge-for-your-vibe-coded-app) helps you decide. Subscriptions add a few more things to test, like [refunds, cancellations and failed renewals](/blog/refunds-and-cancellations-ai-built-app). If you haven't picked a payment company yet, my guide to [Polar vs Stripe for indie makers](/blog/polar-vs-stripe-for-indie-makers) compares fees, payouts by country and features."
     },
     {
       "type": "h2",

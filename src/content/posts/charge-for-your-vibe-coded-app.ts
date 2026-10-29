@@ -6,7 +6,7 @@ export const chargeForYourVibeCodedApp: Post = {
   "seoTitle": "How to Charge for Your Vibe-Coded App",
   "description": "A plain-English guide to charging for an app you built with Cursor, Claude Code or Codex: one-time vs subscription vs credits, Polar vs Stripe, and setup.",
   "date": "2026-10-17",
-  "updated": "2026-10-20",
+  "updated": "2026-10-29",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -109,7 +109,7 @@ export const chargeForYourVibeCodedApp: Post = {
     },
     {
       "type": "p",
-      "text": "**The catch:** more moving parts. People cancel, cards expire, payments fail, and some customers switch between plans. Your app has to react correctly to every one of those, not just the first payment. And buyers think harder before signing up for something that bills them forever."
+      "text": "**The catch:** more moving parts. People cancel, cards expire, payments fail, and some customers switch between plans. Your app has to react correctly to every one of those, not just the first payment. And buyers think harder before signing up for something that bills them forever, which is where a [free trial](/blog/free-trial-vibe-coded-app) can help."
     },
     {
       "type": "p",

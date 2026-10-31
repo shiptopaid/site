@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getPosts } from "@/lib/blog";
 
 /** How many of the newest guides the home page links to. Kept at 6 so every post is linked from home while the blog is small. */
-const HOME_POST_LIMIT = 6;
+const HOME_POST_LIMIT = 8;
 
 /** Small, quiet list of the latest guides near the bottom of the home page (internal links for SEO). */
 export function FromTheBlog() {

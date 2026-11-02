@@ -6,7 +6,7 @@ export const chargeForYourVibeCodedApp: Post = {
   "seoTitle": "How to Charge for Your Vibe-Coded App",
   "description": "A plain-English guide to charging for an app you built with Cursor, Claude Code or Codex: one-time vs subscription vs credits, Polar vs Stripe, and setup.",
   "date": "2026-10-17",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -139,7 +139,7 @@ export const chargeForYourVibeCodedApp: Post = {
     },
     {
       "type": "p",
-      "text": "The trade-off: your app has to keep an accurate balance for every user and never let it go below zero, even if someone clicks twice quickly. It's very doable, but test it carefully."
+      "text": "The trade-off: your app has to keep an accurate balance for every user and never let it go below zero, even if someone clicks twice quickly. It's very doable, but test it carefully. My guide to [selling usage credits in your AI app](/blog/usage-credits-ai-app) walks through the choices and the tests."
     },
     {
       "type": "h2",

@@ -5,5 +5,6 @@ import { customerPaidButNoAccess } from "./customer-paid-but-no-access";
 import { polarVsStripeForIndieMakers } from "./polar-vs-stripe-for-indie-makers";
 import { freeTrialVibeCodedApp } from "./free-trial-vibe-coded-app";
 import { refundsAndCancellationsAiBuiltApp } from "./refunds-and-cancellations-ai-built-app";
+import { usageCreditsAiApp } from "./usage-credits-ai-app";
 
-export const posts: Post[] = [addPaymentsToAiBuiltApp, chargeForYourVibeCodedApp, customerPaidButNoAccess, polarVsStripeForIndieMakers, refundsAndCancellationsAiBuiltApp, freeTrialVibeCodedApp];
+export const posts: Post[] = [addPaymentsToAiBuiltApp, chargeForYourVibeCodedApp, customerPaidButNoAccess, polarVsStripeForIndieMakers, refundsAndCancellationsAiBuiltApp, freeTrialVibeCodedApp, usageCreditsAiApp];

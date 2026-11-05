@@ -6,7 +6,7 @@ export const chargeForYourVibeCodedApp: Post = {
   "seoTitle": "How to Charge for Your Vibe-Coded App",
   "description": "A plain-English guide to charging for an app you built with Cursor, Claude Code or Codex: one-time vs subscription vs credits, Polar vs Stripe, and setup.",
   "date": "2026-10-17",
-  "updated": "2026-11-02",
+  "updated": "2026-11-05",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -118,7 +118,7 @@ export const chargeForYourVibeCodedApp: Post = {
     {
       "type": "ol",
       "items": [
-        "A product with a monthly price, and optionally a yearly price (often offered at a discount).",
+        "A product with a monthly price, and optionally a yearly price (often offered at a discount). My guide to [offering a yearly plan](/blog/yearly-plan-vibe-coded-app) covers pricing it, switching and refunds.",
         "A \"Subscribe\" button that goes to checkout.",
         "Your app listening for payment messages, not just \"paid\" but also \"renewed\", \"cancelled\", \"payment failed\" and \"refunded\", and updating the person's access each time.",
         "Paid pages that check \"is this subscription active right now?\"",

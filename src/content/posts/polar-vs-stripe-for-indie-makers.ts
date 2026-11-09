@@ -6,6 +6,7 @@ export const polarVsStripeForIndieMakers: Post = {
   "seoTitle": "Polar vs Stripe for Indie Makers: Which to Pick",
   "description": "Polar or Stripe for your vibe-coded app? A plain-English comparison for solo makers: fees, sales tax, payouts by country, and switching later.",
   "date": "2026-10-22",
+  "updated": "2026-11-09",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -27,7 +28,7 @@ export const polarVsStripeForIndieMakers: Post = {
     },
     {
       "type": "p",
-      "text": "Whoever is the seller on paper has to charge the right sales tax or VAT for the buyer's country, pay it to the right tax office, and send a proper receipt."
+      "text": "Whoever is the seller on paper has to charge the right sales tax or VAT for the buyer's country, pay it to the right tax office, and send a proper receipt. My guide to [sales tax and VAT for vibe-coded apps](/blog/sales-tax-vat-vibe-coded-app) covers what that means for you in more detail."
     },
     {
       "type": "p",

@@ -6,6 +6,7 @@ export const yearlyPlanVibeCodedApp: Post = {
   "seoTitle": "How to Add a Yearly Plan to Your Vibe-Coded App",
   "description": "Adding a yearly plan to your AI-built app? How to price and show the discount honestly, switching between monthly and yearly, refunds, and what to test.",
   "date": "2026-11-05",
+  "updated": "2026-11-12",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -55,7 +56,7 @@ export const yearlyPlanVibeCodedApp: Post = {
         "**Show the real yearly charge.** If you show a per-month figure, put the full amount next to it. With made-up example numbers, that looks like \"$100 a year, about $8.33 a month\". Never show only the smaller figure; the customer pays the full amount on day one.",
         "**Say how often it's billed.** \"Billed once a year, renews automatically\", near the button.",
         "**Compare against your real monthly price.** Twelve months of what you actually charge, not an invented crossed-out \"was\" price.",
-        "**If the price will change, say when.** A launch price gets an end date, not a fake countdown timer."
+        "**If the price will change, say when.** A launch price gets an end date, not a fake countdown timer. My guide to [running a launch discount or coupon code](/blog/launch-discount-coupon-codes) covers end dates, limits and what to test."
       ]
     },
     {

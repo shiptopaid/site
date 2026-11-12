@@ -9,5 +9,6 @@ import { usageCreditsAiApp } from "./usage-credits-ai-app";
 import { yearlyPlanVibeCodedApp } from "./yearly-plan-vibe-coded-app";
 import { salesTaxVatVibeCodedApp } from "./sales-tax-vat-vibe-coded-app";
 import { launchDiscountCouponCodes } from "./launch-discount-coupon-codes";
+import { chargebacksDisputesVibeCodedApp } from "./chargebacks-disputes-vibe-coded-app";
 
-export const posts: Post[] = [addPaymentsToAiBuiltApp, chargeForYourVibeCodedApp, customerPaidButNoAccess, polarVsStripeForIndieMakers, refundsAndCancellationsAiBuiltApp, freeTrialVibeCodedApp, usageCreditsAiApp, yearlyPlanVibeCodedApp, salesTaxVatVibeCodedApp, launchDiscountCouponCodes];
+export const posts: Post[] = [addPaymentsToAiBuiltApp, chargeForYourVibeCodedApp, customerPaidButNoAccess, polarVsStripeForIndieMakers, refundsAndCancellationsAiBuiltApp, freeTrialVibeCodedApp, usageCreditsAiApp, yearlyPlanVibeCodedApp, salesTaxVatVibeCodedApp, launchDiscountCouponCodes, chargebacksDisputesVibeCodedApp];

@@ -6,6 +6,7 @@ export const refundsAndCancellationsAiBuiltApp: Post = {
   "seoTitle": "Refunds and Cancellations in an AI-Built App",
   "description": "What should happen to access when a customer gets a refund, cancels, or a renewal fails? A plain-English guide for AI-built apps, plus what to test.",
   "date": "2026-10-26",
+  "updated": "2026-11-16",
   "author": "Deepak",
   "readingMinutes": 7,
   "body": [
@@ -133,7 +134,7 @@ export const refundsAndCancellationsAiBuiltApp: Post = {
     },
     {
       "type": "p",
-      "text": "As of 23 Oct 2026, Stripe's [cancel subscriptions page](https://docs.stripe.com/billing/subscriptions/cancel) says a disputed subscription keeps renewing unless you change a setting to cancel it automatically. Worth switching on, so a disputed customer isn't charged again. On Polar, the automatic early refunds mentioned above are meant to head off chargebacks on lower-value sales before they're filed."
+      "text": "As of 23 Oct 2026, Stripe's [cancel subscriptions page](https://docs.stripe.com/billing/subscriptions/cancel) says a disputed subscription keeps renewing unless you change a setting to cancel it automatically. Worth switching on, so a disputed customer isn't charged again. On Polar, the automatic early refunds mentioned above are meant to head off chargebacks on lower-value sales before they're filed. For the full picture, including fees, evidence and how to make disputes less likely, see my guide to [chargebacks and disputes](/blog/chargebacks-disputes-vibe-coded-app)."
     },
     {
       "type": "h2",

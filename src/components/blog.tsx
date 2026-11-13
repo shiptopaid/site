@@ -35,7 +35,7 @@ export function BlogCta() {
   return <aside aria-label="Try ShipToPaid" className="mt-16 rounded-card-lg bg-forest-ink p-8 text-paper sm:p-10">
     <p className="mb-3 text-xs font-medium text-linen-mist">FROM SHIPPED TO PAID</p>
     <h2 className="mb-4 text-3xl font-black leading-tight tracking-[-0.03em] text-lime">Let your AI agent handle the payment part, with the traps already written down.</h2>
-    <p className="mb-8 text-base leading-relaxed text-paper">Start with the free lite pack: three skills for Polar checkout, payment messages and a quick launch check. When you want Stripe, a billing page, credits and a working starter app, get the full pack. $49 one-time for the first 100 buyers, then $79.</p>
+    <p className="mb-8 text-base leading-relaxed text-paper">Start with the free lite pack: three skills for Polar checkout, payment messages and a quick launch check. When you want Stripe, a billing page, credits and a working starter app, get the full pack. $49 one-time launch price until Nov 30, 2026, then $79.</p>
     <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
       <a href="https://github.com/shiptopaid/shiptopaid-lite" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-6 rounded-pill bg-lime px-6 py-[11px] text-base font-medium text-forest-ink hover:bg-linen-mist">Try the free lite pack<span aria-hidden="true">↗</span></a>
       <a href={checkoutUrl} className="text-base font-medium text-linen-mist underline underline-offset-4 hover:text-lime">Get ShipToPaid</a>
